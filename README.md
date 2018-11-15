@@ -5,6 +5,14 @@
 
 鉴权协议分析：https://4fk.me/post/gdes-auth-proto.html
 
+## 告示
+
+由于本人**错误地选择了MIT协议**，导致部分有一定“商业头脑”的同学将本工程源码进行二次包装、再分发并**收费**。
+
+因此决定停止更新**EsDialerGD**，以作为对自己的错误行为的惩戒。
+
+后会有期：）
+
 ## 功能更新
 
 - 2018-09-26：增加对curl命令行调用的支持。如果不想使用libcurl，可在`Makefile`中的`LDFLAGS`加入`-DUSE_CURL_CMD`，并删除`-lcurl`。
