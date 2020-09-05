@@ -24,10 +24,10 @@
 
 AUTH_CONTEXT auth_ctx;
 
-const char *host_name = "MacBookPro"; // 主机名字
-const char *ostag = "macOS10.13.4"; // 系统标识
-const char *user_agent = "CCTP/mac1/5007"; // CCTP User-Agent
-const char *algo_id = "54EB0E0D-58FE-46E2-8629-0A517E2785F4"; // 编解码套件ID
+const char *host_name = "XIAOMI"; // 主机名字
+const char *ostag = "Android"; // 系统标识
+const char *user_agent = "CCTP/AndroidPhone/33"; // CCTP User-Agent
+const char *algo_id = "A85030FA-3A14-48BD-B384-BA6D12139CE9"; // 编解码套件ID
 
 #define DEF_RETRY_COUNT -1
 #define DEF_RETRY_DELAY 30
